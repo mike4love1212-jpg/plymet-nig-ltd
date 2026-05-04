@@ -12,29 +12,26 @@
       <?php 
       include("./header/header.php");
       ?>
-        <div class="relative lg:w-[70rem] lg:h-[50rem] h-full w-full mx-auto overflow-hidden ">
-            <div aria-hidden="true" class="  -z-40 blur- sm:top-[calc(100%-30rem)]">
-                <img class="w-full h-full object-cover" src="./farm1.jpg" alt="">
-            </div>
-          <div aria-hidden="true" class="absolute inset-x-0 bottom-0 lg:w-full lg:h-full h pt-[10rem] overflow-hidden bg-black/20 backdrop-b  sm:-top-80">
-            <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 flex flex-col justify-center items-center">
-           
-              <div class="text-center">
-                <h1 class="text-5xl font-semibold tracking-tight text-balance text-orange-400 sm:text-7xl">The best place to buy and sell your farm products</h1>
-                <p class="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8"><marquee><h2>Farming becomes easier with access to remote buyers.</h2></marquee></p>
-                <div class="mt-10 flex items-center justify-center gap-x-6">
-                  <a href="register.php" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-green-500 shadow-xs hover:bg-white/60 hover:text-green-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-                  <!-- <a href="#" class="text-sm/6 font-semibold text-white border-1 border-white p-[4px]">Learn more <span aria-hidden="true"></span></a> -->
-                </div>
-              </div>
+        <div class="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: url('./farmbg.jpg'); min-height: 85vh;">
+          <div class="absolute inset-0 bg-black/50"></div>
+          <div class="relative z-10 mx-auto flex min-h-[75vh] w-full max-w-5xl flex-col items-center justify-center px-6 py-24 text-center sm:px-8 sm:py-32 lg:py-36">
+            <h1 class="text-4xl font-extrabold tracking-tight text-white drop-shadow-[0_20px_30px_rgba(0,0,0,0.45)] sm:text-5xl lg:text-6xl">
+              The best place to buy and sell your farm products
+            </h1>
+            <p class="mt-6 max-w-2xl text-base leading-8 text-slate-100 sm:text-lg">
+              Farming becomes easier with access to remote buyers, trusted transactions, and fresh products delivered nationwide.
+            </p>
+            <div class="mt-10 flex w-full flex-col items-center justify-center gap-4 sm:flex-row">
+              <a href="register.php" class="inline-flex justify-center rounded-md bg-white px-5 py-3 text-sm font-semibold text-green-600 shadow-lg shadow-black/10 transition hover:bg-white/90 hover:text-green-800">
+                Get started
+              </a>
             </div>
           </div>
-          
         </div>
       </div>
 
      
-      <section id="about" class="bg-gradient-to-b from-white to-green-50 py-8 sm:py-24 lg:-py-32">
+      <section id="about" class="bg-gradient-to-b from-white to-green-50 py-8 sm:py-24 lg:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl text-center mb-12">
             <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">About PLYMET NIG LTD</h2>

@@ -4,11 +4,11 @@
   <div class="pt-[6rem]">
 
             <header class="fixed bg-slate-200 shadow-md inset-x-0 top-0 z-50 ">
-              <nav aria-label="Global" class="flex items-center justify-between p- lg:px-8">
-                <div class="flex lg:flex-1">
-                  <a href="#" class="-m-1.5 p-1.5">
-                    <span class="text-1xl text-green-500 font-bold ">PLYMET NIG LTD</span>
-                    <img src="./logo3.png" alt="" class="h-18 w-19 mb-5" />
+              <nav aria-label="Global" class="flex items-center justify-between p-4 lg:px-8">
+                <div class="flex flex-1 items-center">
+                  <a href="#" class="-m-1.5 p-1.5 flex items-center gap-3">
+                    <img src="./logo3.png" alt="" class="h-12 w-auto" />
+                    <span class="text-lg text-green-500 font-bold">PLYMET NIG LTD</span>
                   </a>
                 </div>
                 <div class="flex lg:hidden">
@@ -20,17 +20,17 @@
                   </button>
                 </div>
                 <div class="hidden lg:flex lg:gap-x-12">
-                  <a href="./index.php" class="text-sm/6 font-semibold text-gray-900">Home</a>
-                  <a href="./index.php#about" class="text-sm/6 font-semibold text-gray-900">About us</a>
-                  <a href="./index.php#contact" class="text-sm/6 font-semibold text-gray-900">Contact</a>
-                  <a href="market.php" class="text-sm/6 font-semibold text-gray-900">Marketplace</a>
+                  <a href="./index.php" class="text-sm font-semibold text-gray-900">Home</a>
+                  <a href="./index.php#about" class="text-sm font-semibold text-gray-900">About us</a>
+                  <a href="./index.php#contact" class="text-sm font-semibold text-gray-900">Contact</a>
+                  <a href="market.php" class="text-sm font-semibold text-gray-900">Marketplace</a>
                 </div>
                 <div class="hidden lg:flex lg:flex-1 lg:justify-end">
                   <?php
                     if (isset($_SESSION['user_id'])) {
-                      echo '<a href="logout.php" class="text-sm/6 font-semibold bg-black py-2 px-4 rounded-md text-slate-300">Log out <span aria-hidden="true">&rarr;</span></a>';
+                      echo '<a href="logout.php" class="text-sm font-semibold bg-black py-2 px-4 rounded-md text-slate-300">Log out <span aria-hidden="true">&rarr;</span></a>';
                     } else {
-                      echo '<a href="login.php" class="text-sm/6 font-semibold text-green-600">Log in <span aria-hidden="true">&rarr;</span></a>';
+                      echo '<a href="login.php" class="text-sm font-semibold text-green-600">Log in <span aria-hidden="true">&rarr;</span></a>';
                     }
                   ?>
                 </div>
@@ -54,13 +54,13 @@
                       <div class="mt-6 flow-root">
                         <div class="-my-6 divide-y divide-gray-500/10">
                           <div class="space-y-2 py-6">
-                            <a href="./index.php" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Home</a>
-                            <a href="./index.php#about" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About us</a>
-                            <a href="./index.php#contact" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
-                            <a href="market.php" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
+                            <a href="./index.php" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Home</a>
+                            <a href="./index.php#about" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">About us</a>
+                            <a href="./index.php#contact" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
+                            <a href="market.php" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
                           </div>
                           <div class="py-6">
-                            <a href="register.php" class="-mx-3 block rounded-lg px-3 py-2.5 text-success font-semibold text-gray-900 hover:bg-gray-50">Sign Up</a>
+                            <a href="register.php" class="-mx-3 block rounded-lg px-3 py-2.5 text-green-600 font-semibold text-gray-900 hover:bg-gray-50">Sign Up</a>
                           </div>
                         </div>
                       </div>
